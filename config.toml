@@ -1,0 +1,72 @@
+baseURL = "http://shmetro.github.io/"
+languageCode = "zh-cn"
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+enableEmoji = true
+# pagination = 10
+
+title = "地下铁新闻网"
+author = "地下铁新闻网"
+copyright = "[Home](/) &#183; Theme [Simpleness](https://github.com/RainerChiang/simpleness) Powered by [Hugo](https://gohugo.io/)"
+
+theme = "simpleness"
+googleAnalytics = ""
+
+[params]
+  lazyImage = true
+  enableMathJax = false # enable it in Front Matter
+  enableReadingTime = true
+  favicon = "favicon.ico"
+  startyear = "2019"
+  showmonth = true
+  slogan = "上海地铁的新鲜事"
+  description = "上海地铁的新鲜事"
+  disqus = ""
+
+[params.valine]
+  enable = false
+  lang = 'en' # zh-CN
+  appId = ''
+  appKey = ''
+  placeholder = 'Say Something......'
+  requiredFields = ['nick', 'mail']
+  avatar = 'robohash'
+  visitor = true
+  enableHeaderVisitor = true
+  debug = true
+
+[menu]
+  [[menu.main]]
+  name = "首页"
+  url = "/"
+  weight = 1
+  [[menu.main]]
+  name = "文章"
+  url = "/posts/"
+  weight = 2
+  [[menu.main]]
+  name = "关于"
+  url = "/about/"
+  weight = 3
+
+[social]
+  weibo = "https://www.weibo.com/metronews"
+  twitter = "https://twitter.com/shmetronews"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+# doc: https://gohugo.io/getting-started/configuration-markup#highlight
+# syntax style: https://xyproto.github.io/splash/docs/longer/all.html
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai" # github, dracula, vim, monokai
+    tabWidth = 4
