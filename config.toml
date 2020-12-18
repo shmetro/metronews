@@ -1,4 +1,4 @@
-baseURL = "http://shmetro.github.io/"
+baseURL = "http://metronews.now.sh/"
 languageCode = "zh-cn"
 DefaultContentLanguage = "zh-cn"
 enableInlineShortcodes = true
